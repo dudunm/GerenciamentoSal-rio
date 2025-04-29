@@ -3,35 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
     <title>Calculadora de salário</title>
 </head>
-<body>
-    
-    <h1>Gerenciamento de salário</h1>
+<body class="fundo">
+    <h1 class="titulo">Gerenciamento de salário - Método 50/30/20</h1>
 
-    <h4>
-        Um ótimo meio de gerenciar seu dinheiro é aplicando o método 50/30/20, nesse método
-        você separa seu salário em 3 partes, que são:<br><br>
-        50% do salário você separa para gastos necessários;<br>
-        30% do salário você separa para gastos pessoais, como desejos ou coisas que gosta;<br>
-        20% do salário você guarda ou investe.<br><br>
-        Gostou do método? Digite seu salário para saber exatamente o quanto separar do seu dinheiro!!
-    </h4>
+    <h3 class="txt">
+        Muitas pessoas hoje em dia não sabem manusear muito bem o seu salário, acabam se individando
+        demais ou até mesmo não sabendo onde gastar o que recebe. Por isso o método 50/30/20 existe!
+        Nesse método você separa seu dinheiro em 3 partes e usa cada uma delas para despesas especificas, são elas:<br><br>
+        50% do salário: É destinado para gastos fixos. Contas, aluguel, mercado e etc;<br>
+        30% do salário: É destinado para lazer. Rolês com os amigos, cinema ou compras no shopping;<br>
+        20% do salário: É destinado para investimentos. Investir ou guardar.<br><br>
+        Gostou? Diga seu salário e saiba exatamente como dividir ele!<br>
+    </h3>
 
-    <input type="number" placeholder="Seu salário" id="salario"></input>
-    <button type="button" id="calcular">Calcular</button>
-
-    <h4>
-        Separe seu salário da seguinte forma:
-    </h4>
+    <input type="number" placeholder="Seu salário" id="salario" class="input"></input>
+    <button type="button" id="calcular" class="botao">Calcular</button>
 
     <p>
-        <h3 id="cinquenta"></h3>
-        <h3 id="trinta"></h3>
-        <h3 id="vinte"></h3>
+        <h4 id="dica" class="txt2"></h4>
+
+        <h3 id="cinquenta" class="txt2"></h3>
+        <h3 id="trinta" class="txt2"></h3>
+        <h3 id="vinte" class="txt2"></h3>
+        <h3 id="erro" class="txt2"></h3>
     </p>
 
     <script src="calc.js"></script>
-
 </body>
 </html>
