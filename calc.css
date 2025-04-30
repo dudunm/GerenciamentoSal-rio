@@ -5,10 +5,14 @@
     padding: 10px;
 }
 .botao{
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
     background-color: #eeebe0;
     color: #a76b8a;
     font-weight: bold;
     border-color: #a76b8a;
+    text-decoration: none;
 }
 .titulo{
     color: #a76b8a;
